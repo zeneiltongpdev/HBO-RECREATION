@@ -1,26 +1,26 @@
 @font-face{
     font-family: 'Gilroy Light';
-    src: url("./font/Gilroy-Light.otf") format("opentype");
+    src: url("/font/Gilroy-Light.otf") format("opentype");
 }
 
 @font-face{
     font-family: 'Gilroy Bold';
-    src: url("./font/Gilroy-ExtraBold.otf") format("opentype");
+    src: url("/font/Gilroy-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'Gilroy heavy';
-    src: url("./font/Gilroy-Heavy.woff") format("woff");
+    src: url("/font/Gilroy-Heavy.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Gilroy bold';
-    src: url("./font/Gilroy-Bold.woff") format("woff");
+    src: url("/font/Gilroy-Bold.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Gilroy medium';
-    src: url("./font/Gilroy-Medium.woff") format("woff"); 
+    src: url("/font/Gilroy-Medium.woff") format("woff"); 
 }
 
 @import url("/css/header.css");
