@@ -1,0 +1,627 @@
+.main1{
+   color: white;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   background: linear-gradient(to bottom , #030327 , #010115);
+
+}
+
+.main1__all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21em;
+    background: linear-gradient(to bottom , #02021B , #01011A , #010115);
+}
+
+.main1__text{
+   background: linear-gradient( to right, rgba(116, 9, 121, 1), rgba(185, 8, 246, 1), rgba(91, 28, 230, 1) );
+   width: max-content;
+   text-align: center;
+   margin: 0 auto;
+   padding: 2px 25px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 0.15em;
+
+}
+
+.main1__img-text{
+    width: 23em;
+    padding: 0 0 .3em 0 ;
+    background: linear-gradient(to bottom , #02021B , #01011A , #010115);
+} 
+
+.main1__info{
+    font-size: 27px;
+    padding: 0 0 .4em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    background: linear-gradient(to bottom , #02021B , #01011A , #010115);
+}
+
+.main1__button{
+    padding: 2em;
+    background: linear-gradient(to bottom , #01011A , #010115);
+}
+
+.main1__button-content{
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+    padding: .7em;
+    margin: 0 10em;
+    letter-spacing: .15em;
+
+}
+
+.main1__button-content:hover{
+    background-position: 1% 50%;
+transition: all 0.5s ease 0s;
+border-radius: 100px  rgb(198, 0, 255);
+color: rgb(255, 255, 255);
+}
+
+.main1__aviso{
+    font-size: 10px;
+    background: linear-gradient(to bottom , #02021B , #01011A , #010115);
+    font-family: 'Gilroy medium';
+}
+
+/* Main 2 */
+
+.main2{
+    color: white;
+    text-align: center;
+    background-image: url(/img/plans_background.png);
+    background-position: center;
+    background-size: 105%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.main2__container{
+    position: relative;
+    left: 15px;
+    padding: 100px 0;
+}
+
+.main2__titulo{
+    position: relative;
+    right: 15px;
+}
+
+
+.main2__texto{
+    font-size: 2rem;
+    line-height: 38px;
+    background-color: transparent;
+    
+}
+
+.main2__button-list{
+    display: flex;
+    gap: 1rem;
+    margin: 0 0 0 29em;
+    padding: 2em 0;
+    
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    cursor: pointer;
+    left: 315px;
+   }
+   
+   button::before,
+   button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   button::before {
+    left: -10px;
+    background: #240046;
+   }
+   
+   button::after {
+    right: -10px;
+    background: #5a189a;
+   }
+   
+   button:hover::before,
+   button:hover::after {
+    width: 58%;
+   }
+   
+   button:hover span {
+    color: #e0aaff;
+    transition: 0.3s;
+   }
+   
+   button span {
+    color: #ffffff;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+   }
+
+.main2__titulo1{
+    font-size: 3em;
+    font-weight: normal;
+    background: transparent;
+}
+
+.main2__titulo2{
+    font-size: 1em;
+    font-weight: normal;
+    background: transparent;
+}
+
+
+.main2__list{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+}
+
+.main2__list-container1{
+ margin: 1em 0 0 15em;
+ width: 30em;
+}
+
+.main2__list-container2{
+    margin: 1em 5em;
+}
+
+.main2__list-text{
+   font-family:  'Gilroy medium';
+}
+
+
+.planos__valor{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    left: 345px;
+    
+}
+
+.planos__valor-container1{
+    width: 345px;
+    height: 304px;
+    position: relative;
+    left: 38px;
+    background: linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100% );
+    margin-top: 58px;
+    border-radius: 8px;
+
+}
+
+.planos__valor-container2{
+    width: 346px;
+    height: 304px;
+    position: relative;
+    right: 200px;
+    background: linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100% );
+    margin-top: 58px;
+    border-radius: 8px
+}
+
+.planos__valor-container3{
+    width: 346px;
+    height: 304px;
+    position: relative;
+    right: 440px;
+    background: linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100% );
+    margin-top: 58px;
+    border-radius: 8px;
+}
+
+.planos__titulo{
+    padding: 1.8em 0 .6em 0;
+    letter-spacing: .1em;
+}
+
+.planos__preço{
+    padding: .3em 0 .3em 0;
+    font-size: 45px;
+    letter-spacing: .1em;
+}
+
+.plano__texto{
+    padding-bottom: 50px;
+   font-family: 'Gilroy medium';
+    
+}
+
+.planos__preço-solo{
+    font-size: 45px;
+    padding: .3em 0 80px 0;
+    letter-spacing: .1em;
+}
+
+
+.main2__button-content{
+    font-size: 14.5px;
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+    padding: .9em .9em ;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .13em;
+    
+
+}
+
+.main2__button-content:hover{
+  background-position: 1% 50%;
+  transition: all 0.5s ease 0s;
+  border-radius: 100px  rgb(198, 0, 255);
+  color: rgb(255, 255, 255);
+
+}
+
+
+.estreias__filme{
+  background: linear-gradient(to top , rgb(62 17 96), rgb(3 3 40));
+}
+
+.estreias__filme-container{
+    display: grid;
+    text-align: left;
+    padding: 5em 0;
+    grid-template-columns: 1fr 1fr;
+    width: 1500px;
+    position: relative;
+    left: 400px;
+}
+
+.estreias__informacao{
+    margin: 50px 0;
+    color: white;
+}
+
+.estreias__titulo{
+ position: relative;
+ left: 300px;
+ padding: 0 0 2em 0 ;
+}
+
+.estreias__titulo2{
+    letter-spacing: .15em;
+}
+
+.estreias__titulo3{
+   background: linear-gradient( to right, rgba(116, 9, 121, 1), rgba(185, 8, 246, 1), rgba(91, 28, 230, 1) );
+   width: max-content;
+   text-align: center;
+   padding: 2px 3px;    
+   font-family: 'Gilroy medium';
+   font-size: 15px;
+   line-height: 24px;
+   letter-spacing: 0.15em;
+   margin: .5em 0 1em 0;
+}
+
+.estreias__texto{
+    font-family: 'Gilroy Light';
+    width: 450px;
+    word-wrap: break-word;
+    padding: 0 0 1em 0;
+}
+
+.estreias__imagem{
+    display: grid;
+    grid-template-columns: .24fr .24fr .24fr;
+
+}
+
+.estreias__img{
+    width: 70px;
+}
+
+.estreias__img-nomes{
+    font-family: 'Gilroy Light';
+    font-size: 14px;
+}
+
+.estreias__img-nomes2{
+    font-family: 'Gilroy Light';
+    color: darkgray;
+    font-size: 12px;
+
+}
+
+.thelast__img{
+  width: 70%;
+  position: relative;
+  top: 130px;
+  right: 170px;
+}
+
+.play__img{
+    width: 10%;
+    position: relative;
+    right: 460px;
+    top: 30px;
+    
+}
+
+.botton__assine{
+    font-size: 11.5px;
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+    padding: .7em 2em ;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .13em;
+    position: relative;
+    left: 850px;
+    
+}
+
+.botton__assine:hover{
+    background-position: 1% 50%;
+    transition: all 0.5s ease 0s;
+    border-radius: 100px  rgb(198, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+.filmes__catalogo{
+    background: linear-gradient(180deg, rgb(62 17 96), #1B0A40 ,#351159);
+}
+
+.filmes__container{
+    display: grid;
+    padding: 2em 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60%;
+    gap: 12px;
+    margin-left: 370px;
+}
+
+.episodios{
+    padding: 6em 0 0 0;
+    color: white;
+    margin-left: 550px;
+}
+
+
+
+.filmes__img{
+    width: 100%;
+    text-align: center;
+}
+
+
+.filmes__texto{
+    font-family: 'Gilroy Light';
+    position: relative;
+    bottom: 70px;
+    font-size: 25px;
+    letter-spacing: .1em;
+    color: white;
+}
+
+.filmes__texto2{
+    font-family: 'Gilroy Light';
+    position: relative;
+    bottom: 60px;
+    color: #ff00e5;
+    font-size: 20px;
+}
+
+
+
+.botton__explorar{
+    background-color: white;
+    border: 2px solid white;
+    color: rgb(11, 0, 59);
+    border-radius: 100px;
+    padding: 0.55em 1.5em 0.5em;
+    transition: all .5s ease 0s;
+}
+
+.botton__explorar:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+/* main 3 */
+
+.main3{
+    background: linear-gradient(180deg, #351159, #1B0A40 , #030526);
+    text-align: center;
+}
+
+.botton__explorar{
+    letter-spacing: .1em;
+    font-size: 14;
+}
+
+.main3__container{
+    text-align: center;
+    margin: 10em 0 5em 0 ;
+    color: white;
+}
+
+.main3__subtitulo{
+    margin: 0 0 10em 0;
+    font-size: 10px;
+
+}
+
+.main3__container2{
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 50%;
+    margin-left: 30em;
+}
+
+.main3__texto2{
+    font-family: 'Gilroy Light';
+    padding:  1em;
+    padding-top: 1.5em;
+    
+}
+
+.cor-magenta{
+    background-color: #ff00e5;
+    border-width: 2px;
+    width: 50px;
+    position: relative;
+    left: 90px;
+}
+
+hr{
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.desenhos{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.desenhos__img{
+    width: 15%;
+}
+
+.desenhos__texto{
+    font-family:'Gilroy Light' ;
+    color: white;
+    width: 14%;
+    position: relative;
+    top: 100px
+}
+
+
+.filmes__titulo{
+    color: white;
+    padding: 5em 0 2em 0;
+    font-family: 'Gilroy Light';
+}
+
+.filmes__container-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 40%;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px; 
+
+}
+
+.filmes__container-list-img{
+    width: 100%;
+    position: relative;
+    left: 275px;
+}
+
+
+/*Perguntas*/
+
+.quests{
+    background-color: linear-gradient(180deg, #351159, #1B0A40 , #030526);
+    color: white;
+    text-align: center;
+    margin-top: 10em;
+    max-width: 100%;
+    
+}
+
+.quests-container{
+    text-align: left;
+    margin-left: 500px;
+}
+
+.quests-text2{
+    font-family: 'Gilroy Light';
+    color: #9d85ff;
+    padding: 0.5em 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 67%;
+}
+
+.quests-img{
+    position: relative;
+    left: 920px;
+    top: 30px;
+    cursor:pointer;
+}
+
+.quests-title{
+    font-family: 'Gilroy Light';
+    font-size: 28.6px;
+}
+
+
+
+/* footer */
+
+footer{
+ background-color: #030526;
+ text-align: center;
+ color: #9d85ff
+}
+
+.footer__one{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__text{
+    font-size: 10px;
+    padding: 5em 2em 2em 2em;
+    color: #9d85ff
+}
+
+.footer__two{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__text2{
+    font-family: 'Gilroy Light';
+    font-size: 10px;
+    padding:  0 2em 2em 2em;
+    color: #9d85ff
+}
+
+.footer__direitos{
+    font-family: 'Gilroy Light';
+    font-size: 9px;
+}
+
+.footer__img{
+    padding: 2em 1em .6em 1em;
+}
